@@ -36,7 +36,7 @@ follow naming convention: `beautifyterminal<nameOfInspiredTheme>.omp.json`
         ```   
 - visual studio code:
 	- update font-family
-		-- current font using: ShureTechMono Nerd Font Mono
+    	- current font using: ShureTechMono Nerd Font Mono
 
 
 ## TODO:
