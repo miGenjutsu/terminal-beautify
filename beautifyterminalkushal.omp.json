@@ -6,7 +6,7 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#708090",
+          "background": "#23dea5",
           "foreground": "#011627",
           "leading_diamond": "\ue0b2",
           "properties": {
@@ -233,7 +233,7 @@
         },
         {
           "foreground": "#ce6400",
-          "leading_diamond": "<#00C7FC> \uf07b </><#B6D6F2> in </>",
+          "leading_diamond": "<#00C7FC> \uf07b </><#d97823> in </>",
           "properties": {
             "folder_icon": " \uf07c ",
             "folder_separator_icon": " \uf061 ",
