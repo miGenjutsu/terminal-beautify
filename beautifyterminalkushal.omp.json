@@ -72,14 +72,14 @@
           "properties": {
               "display_mode": "context"
             },
-            "foreground": "#ffffff",
+            "foreground": "#FFFFFF",
             "background": "#7FD5EA",
             "template": " \u202d\ue626 {{ .Full }} "
         },
         {
           "type": "rust",
           "style": "powerline",
-          "powerline_symbol": "\ue0b0",
+          "powerline_symbol": "",
           "properties": {
               "display_mode": "context"
             },
@@ -87,7 +87,6 @@
             "background": "#99908A",
             "template": " \ue7a8 {{ .Full }} "
         },
-        
         {
           "type": "terraform",
           "style": "powerline",
@@ -96,7 +95,7 @@
               "display_mode": "context"
             },
             "foreground": "#011627",
-            "background": "#8c26ad",
+            "background": "#8C26AD",
             "template": "  {{.WorkspaceName}}"
         },
         {
@@ -118,7 +117,7 @@
               "display_mode": "context"
             },
             "foreground": "#193549",
-            "background": "#ffeb3b",
+            "background": "#FFEB3B",
             "template": "  {{ .Full }}  "
         },
         {
@@ -128,21 +127,20 @@
           "properties": {
               "display_mode": "context"
             },
-            "foreground": "#ffffff",
-            "background": "#3a579b",
+            "foreground": "#FFFFFF",
+            "background": "#3A579B",
             "template": "  {{ .MajorMinorPatch }} "
         },
         {
-          "leading_diamond": "\ue0b6",
-          "style": "diamond",
-          "trailing_diamond": "\ue0b4 ",
           "type": "ruby",
+          "style": "powerline",
+          "powerline_symbol": "",
           "properties": {
               "display_mode": "context"
             },
-            "background": "#ffffff",
-            "foreground": "#9c1006",
-            "template": "\ue791 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}"
+            "background": "#9C1006",
+            "foreground": "#011627",
+            "template": " \ue791 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} "
         },
         {
           "background": "#429EBD",
@@ -173,7 +171,7 @@
       "segments": [
         {
           "background": "#565656",
-          "foreground": "#faa029",
+          "foreground": "#FAA029",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
           "template": "\ue7ad {{.Profile}}{{if .Region}}@{{.Region}}{{end}}",
@@ -181,7 +179,7 @@
           "type": "aws"
         },
         {
-          "background": "#f4a425",
+          "background": "#F4A425",
           "background_templates": [
             "{{ if gt .Code 0 }}#E44141{{ end }}"
           ],
@@ -217,13 +215,13 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#eb8934",
+          "foreground": "#EB8934",
           "style": "plain",
           "template": "\u256d\u2500",
           "type": "text"
         },
         {
-          "foreground": "#ffa047",
+          "foreground": "#FFA047",
           "properties": {
             "time_format": "<#D6DEEB>\ue641 15:04:05</> <#79DFE1>|</> \uf073 2 Jan, Monday"
           },
@@ -232,8 +230,8 @@
           "type": "time"
         },
         {
-          "foreground": "#ce6400",
-          "leading_diamond": "<#00C7FC> \uf07b </><#d97823> in </>",
+          "foreground": "#CE6400",
+          "leading_diamond": "<#00C7FC> \uf07b </><#D97823> in </>",
           "properties": {
             "folder_icon": " \uf07c ",
             "folder_separator_icon": " \uf061 ",
@@ -253,13 +251,13 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#eb8934",
+          "foreground": "#EB8934",
           "style": "plain",
           "template": "\u2570\u2500",
           "type": "text"
         },
         {
-          "foreground": "#eb8934",
+          "foreground": "#EB8934",
           "properties": {
             "always_enabled": true
           },
@@ -279,7 +277,7 @@
   },
   "secondary_prompt": {
     "background": "transparent",
-    "foreground": "#eb8934",
+    "foreground": "#EB8934",
     "template": "\u2570\u2500\u276f "
   },
   "version": 2
