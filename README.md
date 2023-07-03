@@ -55,4 +55,25 @@ follow naming convention: `beautifyterminal<nameOfInspiredTheme>.omp.json`
          ```
 ----
 
+## Documentation:
+
+after consulting with `chatgpt` it helped resolve the issue i was experincing when attempting to load customize `oh-my-posh theme` heres that conversation:
+Locate Your Windows User's Home Folder: In WSL, your Windows user's home folder can be accessed at the following path: /mnt/c/Users/<WINDOWSUSERNAME>. Replace <WINDOWSUSERNAME> with your actual Windows username.
+
+Copy Your Oh My Posh Theme to Windows Home Folder: Copy your beautifyterminalkusha.omp.json theme file from your WSL's home folder (e.g., ~/github/prompt/) to your Windows user's home folder. You can do this by running the following command in your WSL terminal:
+
+bash
+
+cp ~/github/prompt/beautifyterminalkusha.omp.json /mnt/c/Users/<WINDOWSUSERNAME>/
+
+Update the ~/.bashrc Configuration: Modify the line in your ~/.bashrc file to point to the theme file in your Windows user's home folder. Update the path accordingly:
+
+bash
+
+    eval "$(oh-my-posh init bash --config '/mnt/c/Users/<WINDOWSUSERNAME>/beautifyterminalkusha.omp.json')"
+
+By copying your theme file to your Windows user's home folder and updating the path in the ~/.bashrc file, you should be able to use the shared theme between Windows and WSL. Remember to save the changes to your ~/.bashrc file and restart your terminal for the modifications to take effect.
+
+This approach allows you to maintain a single copy of your theme file that can be used in both Windows and WSL environments without the need for separate copies or complex path configurations.  
+
 
