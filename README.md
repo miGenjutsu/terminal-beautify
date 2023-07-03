@@ -72,7 +72,7 @@ Update the ~/.bashrc Configuration: Modify the line in your ~/.bashrc file to po
 
 bash
 
-    eval "$(oh-my-posh init bash --config '/mnt/c/Users/<WINDOWSUSERNAME>/beautifyterminalkusha.omp.json')"
+    eval "$(oh-my-posh init bash --config '/mnt/c/Users/<WINDOWSUSERNAME>/beautifyterminalkushal.omp.json')"
 
 By copying your theme file to your Windows user's home folder and updating the path in the ~/.bashrc file, you should be able to use the shared theme between Windows and WSL. Remember to save the changes to your ~/.bashrc file and restart your terminal for the modifications to take effect.
 
@@ -83,37 +83,36 @@ This approach allows you to maintain a single copy of your theme file that can b
 
 If you've updated your Oh My Posh theme in Windows and want to reflect those changes in your WSL2 environment, you can follow these steps to update the theme:
 
-    Open a Windows File Explorer window.
+- Open a Windows File Explorer window.
 
-    Navigate to your Windows user's home folder, which is typically located at C:\Users\<WINDOWSUSERNAME>. Replace <WINDOWSUSERNAME> with your actual Windows username.
+- Navigate to your Windows user's home folder, which is typically located at `C:\Users\<WINDOWSUSERNAME>`. Replace <WINDOWSUSERNAME> with your actual Windows username.
 
-    Locate the updated beautifyterminalkusha.omp.json theme file in your Windows user's home folder.
+- Locate the updated beautifyterminalkusha.omp.json theme file in your Windows user's home folder.
 
-    Copy the updated theme file.
+- Copy the updated theme file.
 
-    Open a WSL2 terminal.
+- Open a WSL2 terminal.
 
-    In your WSL2 terminal, navigate to your WSL2 user's home folder using the path /mnt/c/Users/<WINDOWSUSERNAME>. Replace <WINDOWSUSERNAME> with your actual Windows username.
-
+- In your WSL2 terminal, navigate to your WSL2 user's home folder using the path /mnt/c/Users/<WINDOWSUSERNAME>. Replace <WINDOWSUSERNAME> with your actual Windows username.
     
-```bash
-cd /mnt/c/Users/<WINDOWSUSERNAME>
-```
+  ```bash
+  cd /mnt/c/Users/<WINDOWSUSERNAME>
+  ```
 
-Paste the updated theme file into your WSL2 user's home folder.
+- Paste the updated theme file into your WSL2 user's home folder.
 
-Once the file is copied, you can update the path in your ~/.bashrc file to point to the updated theme file in WSL2.
+- Once the file is copied, you can update the path in your ~/.bashrc file to point to the updated theme file in WSL2.
 
 
-```bash
-eval "$(oh-my-posh init bash --config '/mnt/c/Users/<WINDOWSUSERNAME>/beautifyterminalkusha.omp.json')"
-```
-Save the changes to your ~/.bashrc file.
+  ```bash
+  eval "$(oh-my-posh init bash --config '/mnt/c/Users/<WINDOWSUSERNAME>/beautifyterminalkushal.omp.json')"
+  ```
+- Save the changes to your ~/.bashrc file.
 
-Restart your WSL2 terminal or run the following command to apply the changes:
+- Restart your WSL2 terminal or run the following command to apply the changes:
 
-```bash
-source ~/.bashrc
-```
+  ```bash
+  source ~/.bashrc
+  ```
 
 After following these steps, your updated Oh My Posh theme should be applied in your WSL2 environment.
