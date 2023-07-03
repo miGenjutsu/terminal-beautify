@@ -6,7 +6,7 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#23dea5",
+          "background": "#0E65A3",
           "foreground": "#011627",
           "leading_diamond": "\ue0b2",
           "properties": {
@@ -39,7 +39,7 @@
           "type": "shell"
         },
         {
-          "background": "#708090",
+          "background": "#429EBD",
           "foreground": "#011627",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
@@ -145,7 +145,7 @@
             "template": "\ue791 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}"
         },
         {
-          "background": "#778899",
+          "background": "#429EBD",
           "background_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}#16B1AC{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#16B1AC{{ end }}",
