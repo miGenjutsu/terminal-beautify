@@ -7,7 +7,7 @@
       "segments": [
         {
           "background": "#708090",
-          "foreground": "#D6DEEB",
+          "foreground": "#011627",
           "leading_diamond": "\ue0b2",
           "properties": {
             "alpine": "\uf300",
@@ -40,7 +40,7 @@
         },
         {
           "background": "#708090",
-          "foreground": "#D6DEEB",
+          "foreground": "#011627",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
           "template": " \uf09c admin ",
