@@ -110,6 +110,17 @@
             "template": "  {{ .Context }} "
         },
         {
+          "type": "node",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "properties": {
+            "display_mode": "context"
+          },
+          "foreground": "#ffffff",
+          "background": "#6CA35E",
+          "template": "  {{ .Full }} "
+        },
+        {
           "type": "npm",
           "style": "powerline",
           "powerline_symbol": "",
